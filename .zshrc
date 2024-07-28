@@ -63,8 +63,8 @@ alias ..='cd ..'
 alias sshdvm='ssh daksh@bits-dvm.org'
 
 # Set up tmuxifier
-export PATH=$HOME/.tmuxifier/bin:$PATH
-eval "$(tmuxifier init -)"
+#export PATH=$HOME/.tmuxifier/bin:$PATH
+#eval "$(tmuxifier init -)"
 
 # Set the editor
 export EDITOR='nvim'
