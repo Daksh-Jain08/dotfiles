@@ -55,6 +55,8 @@ zstyle ':completion:*' list-colors ${(s.:.)LS_COLORS}
 # Aliases
 alias ls='ls --color'
 alias ll='ls -la'
+alias la='ls -A'
+alias oasis='cd ~/code/dvm/oasis-2024-back'
 alias c='clear'
 alias python='python3'
 alias set_brightness='xrandr --output eDP-1 --brightness'
@@ -63,8 +65,9 @@ alias ..='cd ..'
 alias sshdvm='ssh daksh@bits-dvm.org'
 
 # Set up tmuxifier
-#export PATH=$HOME/.tmuxifier/bin:$PATH
-#eval "$(tmuxifier init -)"
+export PATH=$HOME/.tmuxifier/bin:$PATH
+eval "$(tmuxifier init -)"
 
 # Set the editor
 export EDITOR='nvim'
+
